@@ -1,16 +1,20 @@
 {
   "name": "iot",
   "version": "1.0.0",
-  "description": "",
+  "description": "echo \"# Arduino\" >> README.md\r git init\r git add README.md\r git commit -m \"first commit\"\r git remote add origin https://github.com/ricardorodrigooliveira/Arduino.git\r git push -u origin master",
   "main": "api.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Ricardo Oliveira",
   "license": "ISC",
   "dependencies": {
     "ejs": "^2.7.1",
     "express": "^4.17.1",
     "johnny-five": "^1.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u0016https://github.com/ricardorodrigooliveira/Arduino.git"
   }
 }
