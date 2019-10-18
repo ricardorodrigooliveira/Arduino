@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <input type="button" id="btnLigar" value="Ligar">
+    <input type="button" id="btnDesligar" value="Desligar">
+    <input type="button" id="btnPiscar" value="Piscar">
+    <script>
+        var btnLigar = document.getElementById('btnLigar');
+        var btnDesligar = document.getElementById('btnDesligar');
+        var btnPiscar = document.getElementById('btnPiscar');
+
+        btnLigar.addEventListener('click', function(){
+            fetch('http://localhost:3000/ligar')
+        });
+
+        btnDesligar.addEventListener('click', function(){
+            fetch('http://localhost:3000/desligar')
+        });
+
+        btnDesligar.addEventListener('click', function(){
+            fetch('http://localhost:3000/piscar')
+        });
+    </script>
+</body>
+</html>
